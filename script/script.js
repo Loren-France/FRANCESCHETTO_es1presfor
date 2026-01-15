@@ -31,7 +31,7 @@ document.getElementById("output").innerHTML = output;
 function SommaPari() {
     let s=0;
     for (let index of numeri) {
-        if (index % 2 == 1) {
+        if (index % 2 == 0) {
             s+=index;
         }
     }
